@@ -1,0 +1,4 @@
+/.devcontainer/volumes/
+/.vscode/
+/cabal.project.*
+/dist-newstyle/

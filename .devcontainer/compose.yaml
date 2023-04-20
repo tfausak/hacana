@@ -1,0 +1,15 @@
+{
+  "services": {
+    "devcontainer": {
+      "command": "sh -ec 'while sleep 1; do :; done'",
+      "image": "public.ecr.aws/acilearning/haskell:9.6.1-e4a641be85234395562f5a40bf70a403f89f1daf",
+      "init": true,
+      "volumes": [
+        "..:/workspaces/hacana",
+        "./volumes/cabal-cache:/home/vscode/.cache/cabal",
+        "./volumes/cabal-state:/home/vscode/.local/state/cabal"
+      ],
+      "working_dir": "/workspaces/hacana"
+    }
+  }
+}

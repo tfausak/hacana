@@ -1,0 +1,16 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "taylorfausak.purple-yolk"
+      ],
+      "settings": {
+        "editor.formatOnSave": false,
+        "purple-yolk.haskell.linter.onSave": false
+      }
+    }
+  },
+  "dockerComposeFile": "compose.yaml",
+  "service": "devcontainer",
+  "workspaceFolder": "/workspaces/hacana"
+}
